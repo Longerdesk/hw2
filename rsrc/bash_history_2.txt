@@ -1,0 +1,10 @@
+./a.out & > whitespace.txt
+./a.out < whitespace.txt
+./a.out 2> whitespace.txt
+od -bc whitespace.txt 
+vi make_whitespace.c 
+od -bc whitespace.txt 
+gcc whitespace.c& 
+./a.out > whitespace.txt  2> whitespace.txt < whitespace.txt
+od -bc whitespace.txt &        
+git_prompt_list_themes | grep Ubuntu

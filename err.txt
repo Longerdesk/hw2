@@ -1,0 +1,7 @@
+Total number of commands: 9
+Number of unique executables: 4
+Percentage of background commands (&): 0.00%
+Percentage of piped commands (|): 0.00%
+Percentage of commands with input redirection (<): 0.00%
+Percentage of commands with output redirection (>): 0.00%
+Percentage of commands with error redirection (2>): 0.00%

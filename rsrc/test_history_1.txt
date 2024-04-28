@@ -1,0 +1,8 @@
+./bin/53markdown  -A < rsrc/sample_1.md
+/bin/53markdown -A &
+53markdown -E -C < rsrc/sample_emoji.md > out.txt 2> err.txt
+53markdown -E -C < rsrc/sample_emoji.md &> err.txt
+cat emoji.md | ./bin/53markdown -K \"the line\" -C 2> stderr.txt
+./bin/my_stuff2 -A &
+/bin/53markdown -A &
+cat emoji.md | ./bin/53markdown -K \"the line\" -C 2> stderr.txt

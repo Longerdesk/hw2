@@ -1,0 +1,13 @@
+ls
+cd lab2
+./a.out > whitespace.txt&
+ls
+ls -a
+man tree
+man unzip
+chmod -x *.h
+cat ../../rsrc/nonASCIIchar.txt 
+vi ptr1.c &
+vi ptr2.c
+ls -ltr
+cd lab3
